@@ -5,4 +5,6 @@ Hi, I'm Manolo. You may remember me as:
 - [Disc golf player](https://disc-golf-friends.de/en/friends/manolo/)
 - [Youtuber](https://www.youtube.com/c/ThunderGuanacoDiscGolf)
 
-That's all me. You can contact me via email: marianocucufate(at)gmail.com
+That's all me.
+
+You can contact me via email: marianocucufate@gmail.com
