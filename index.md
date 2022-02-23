@@ -7,3 +7,5 @@ Hi, I'm Manolo. You may remember me as:
 That's all me
 
 You can contact me via email: [marianocucufate@gmail.com](mailto:marianocucufate@gmail.com)
+
+And here you have my [CV](assets/cv-manuel-garcia-garcia.pdf){:target="_blank"}
