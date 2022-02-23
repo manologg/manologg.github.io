@@ -1,0 +1,58 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* mobile */
+@media only screen and (max-width: 1024px) {
+    #whole_page {
+        flex-direction: column;
+    }
+    
+    #main_picture {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #main_picture img {
+        width: 50%;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width: 1024px) {
+    #whole_page {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #main_picture {
+        width: 30%;
+    }
+
+    #main_content {
+        width: 70%;
+        margin: 1em;
+    }
+    
+    #main_picture img {
+        width: -webkit-fill-available;
+    }
+
+}
+
+#whole_page {
+    display: flex;
+}
+
+#main_picture {
+}
+
+#main_content {
+}
+
+#main_picture img {
+    padding: 1em;
+    border-radius: 2em
+}
+

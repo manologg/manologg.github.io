@@ -4,6 +4,6 @@ Hi, I'm Manolo. You may remember me as:
 - [Disc golf player](https://disc-golf-friends.de/en/friends/manolo/){:target="_blank"} ([PDGA profile](https://www.pdga.com/player/111828){:target="_blank"})
 - [Youtuber](https://www.youtube.com/c/ThunderGuanacoDiscGolf){:target="_blank"}
 
-That's all me.
+That's all me
 
 You can contact me via email: [marianocucufate@gmail.com](mailto:marianocucufate@gmail.com)
