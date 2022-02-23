@@ -1,2 +1,4 @@
-theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker@v0.2.0
 title: Manuel García García (Manolo)
+google_analytics: G-F7HCF9HBG6
+
