@@ -5,8 +5,13 @@
 
 /* mobile */
 @media only screen and (max-width: 1024px) {
+
+    header {
+        margin: 0;
+    }
+
     #whole_page {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     
     #main_picture {
@@ -21,6 +26,7 @@
 
 /* desktop */
 @media only screen and (min-width: 1024px) {
+
     #whole_page {
         flex-direction: row;
         align-items: center;

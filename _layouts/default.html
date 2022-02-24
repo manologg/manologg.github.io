@@ -14,30 +14,41 @@
 
     <header>
       <div class="container">
+        
         <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        
+        {% if site.description %}
+          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        {% endif %}
 
-        <section id="downloads">
-          {% if site.show_downloads %}
+        {% if site.show_downloads %}
+          <section id="downloads">
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-          {% endif %}
-          {% if site.show_github_profile %}
+          </section>
+        {% endif %}
+          
+        {% if site.show_github_profile %}
+          <section id="downloads">
             <a href="{{ site.github.owner_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-          {% endif %}
-        </section>
+          </section>
+        {% endif %}
+        
       </div>
     </header>
 
     <div id="whole_page" class="container">
-      <div id="main_picture">
-        <img src="/assets/mgg_square.jpg" alt="manolo">
-      </div>
+      
       <div id="main_content">
         {{ content }}
       </div>
+      
+      <div id="main_picture">
+        <img src="/assets/mgg_square.jpg" alt="manolo">
+      </div>
+      
     </div>
   </body>
 </html>
